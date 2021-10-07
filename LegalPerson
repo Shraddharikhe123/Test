@@ -1,0 +1,15 @@
+public class LegalPerson extends Address{
+Integer id;
+String name;
+Integer numberOfEmployees;
+}
+
+
+
+class NaturalPerson extends Address{
+Integer id;
+String name;
+Date dateOfBirth;
+Integer age;
+}
+// Now this both classes have all properties that address class have.
